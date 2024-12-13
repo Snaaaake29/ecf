@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --cta-greencolor: #48B343;
+    --secondarycolor: #2c2c2c;
+    --textcolor: #1E1E1E;
+    --textmutedcolor: #757575;
+    --hovercolorone: #3C9436;
+    --hovercolortwo: #E3E3E3;
+    --border: #D9D9D9;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+/* Header */
+
+header {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--border);
+}
+
+.button:hover {
+    background-color: var(--textcolor);
+    color: white;
+}
+
+/* MAIN */
+
+.products{
+    
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+}
+
+
+
+/* .produits {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+}
+
+
+
+.oneimg {
+    grid-column: 1 span;
+    grid-row: 1 span;
+    height: 2rem;
+    width: 4rem;
+}
+
+.twoimg {
+    grid-column: 2 span;
+    grid-row: 1 span;
+} */
+
+/* FOOTER */
